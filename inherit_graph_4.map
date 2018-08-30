@@ -1,0 +1,8 @@
+<map id="Иерархия классов. Графический вид." name="Иерархия классов. Графический вид.">
+<area shape="rect" id="node1" href="$classWidget.html" title="Widget" alt="" coords="6,107,69,133"/>
+<area shape="rect" id="node2" href="$classExporterWidget.html" title="ExporterWidget" alt="" coords="133,5,245,32"/>
+<area shape="rect" id="node3" href="$classFigureDeleterWidget.html" title="FigureDeleterWidget" alt="" coords="119,56,260,83"/>
+<area shape="rect" id="node4" href="$classFigureWidget.html" title="FigureWidget" alt="" coords="140,107,239,133"/>
+<area shape="rect" id="node5" href="$classImporterWidger.html" title="ImporterWidger" alt="" coords="134,157,245,184"/>
+<area shape="rect" id="node6" href="$classNewDocumetWidger.html" title="NewDocumetWidger" alt="" coords="118,208,261,235"/>
+</map>

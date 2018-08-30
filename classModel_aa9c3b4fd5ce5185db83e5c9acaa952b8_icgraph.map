@@ -1,0 +1,11 @@
+<map id="Model::plotFiguresOnBoar" name="Model::plotFiguresOnBoar">
+<area shape="rect" id="node2" href="$classModel.html#a9113033414cab6106dfb5d86c463dbd7" title="Model::prepareBoard" alt="" coords="227,81,370,108"/>
+<area shape="rect" id="node3" href="$classController.html#a3a7f06e3192e5f0ee86c4bf36b6e18f3" title="Controller::newDocument" alt="" coords="419,5,589,32"/>
+<area shape="rect" id="node5" href="$classController.html#ac185ae48681009baf6d76957c0115f35" title="Controller::importFrom" alt="" coords="428,56,580,83"/>
+<area shape="rect" id="node7" href="$classController.html#a9a3867c97cb85036637c012346ce019b" title="Controller::add" alt="" coords="451,107,557,133"/>
+<area shape="rect" id="node9" href="$classController.html#a3c9e3e285867176a9eea9ce0384810e5" title="Controller::deleteFigure" alt="" coords="425,161,583,188"/>
+<area shape="rect" id="node4" href="$classNewDocumetWidger.html#af63fc1d4cf1abb352dee2b305a529e4a" title="NewDocumetWidger::click" alt="" coords="637,5,816,32"/>
+<area shape="rect" id="node6" href="$classImporterWidger.html#af06f7011c3389ea462b4384cfcd1bc80" title="ImporterWidger::click" alt="" coords="653,56,800,83"/>
+<area shape="rect" id="node8" href="$classFigureWidget.html#a54cc57279fb744e09830a11a6717e226" title="FigureWidget::click" alt="" coords="659,107,794,133"/>
+<area shape="rect" id="node10" href="$classFigureDeleterWidget.html#aad2166db7762fbf6b5d822cc3dbf8309" title="FigureDeleterWidget\l::click" alt="" coords="656,158,797,199"/>
+</map>

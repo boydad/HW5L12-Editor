@@ -1,0 +1,291 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>HW5L12-Editor: Класс IFigure</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">HW5L12-Editor
+   </div>
+   <div id="projectbrief">Homework 5 from lesson 12</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="classes.html"><span>Алфавитный&#160;указатель&#160;классов</span></a></li>
+      <li><a href="inherits.html"><span>Иерархия&#160;классов</span></a></li>
+      <li><a href="functions.html"><span>Члены&#160;классов</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Классы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Определения типов</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="classIFigure-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс IFigure<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="figures_8h_source.html">figures.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф наследования:IFigure:</div>
+<div class="dyncontent">
+<div class="center"><img src="classIFigure__inherit__graph.png" border="0" usemap="#IFigure_inherit__map" alt="Inheritance graph"/></div>
+<map name="IFigure_inherit__map" id="IFigure_inherit__map">
+<area shape="rect" id="node2" href="classFigureBase.html" title="FigureBase" alt="" coords="59,80,147,107"/><area shape="rect" id="node6" href="classPoint.html" title="Point" alt="" coords="171,80,223,107"/><area shape="rect" id="node3" href="classBox.html" title="Box" alt="" coords="5,155,51,181"/><area shape="rect" id="node4" href="classCircle.html" title="Circle" alt="" coords="75,155,129,181"/><area shape="rect" id="node5" href="classLine.html" title="Line" alt="" coords="155,155,201,181"/></map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:ae8f8bbd46d421970ec45b400999346b2"><td class="memItemLeft" align="right" valign="top">virtual const std::vector<br class="typebreak"/>
+&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIFigure.html#ae8f8bbd46d421970ec45b400999346b2">showAttributeNames</a> () const =0</td></tr>
+<tr class="separator:ae8f8bbd46d421970ec45b400999346b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85a3764ede75eef93a0fee69001364c4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIFigure.html#a85a3764ede75eef93a0fee69001364c4">set</a> (const std::string &amp;attribureName, const std::string &amp;value)=0</td></tr>
+<tr class="separator:a85a3764ede75eef93a0fee69001364c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21e92da5ef50c88d5500ddac21c50842"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classIFigure.html">IFigure</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIFigure.html#a21e92da5ef50c88d5500ddac21c50842">clone</a> () const =0</td></tr>
+<tr class="separator:a21e92da5ef50c88d5500ddac21c50842"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5ff48ffdc52cfcb90832184b090106c"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIFigure.html#aa5ff48ffdc52cfcb90832184b090106c">getId</a> ()=0</td></tr>
+<tr class="separator:aa5ff48ffdc52cfcb90832184b090106c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a607fe28c7b292ea8a7b25ca2156dc623"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classIFigure.html#a607fe28c7b292ea8a7b25ca2156dc623">getName</a> ()=0</td></tr>
+<tr class="separator:a607fe28c7b292ea8a7b25ca2156dc623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Методы</h2>
+<a class="anchor" id="a21e92da5ef50c88d5500ddac21c50842"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::unique_ptr&lt;<a class="el" href="classIFigure.html">IFigure</a>&gt; IFigure::clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещается в <a class="el" href="classPoint.html#af45d452ee6d27c6057a1687958ec05a1">Point</a>, <a class="el" href="classCircle.html#ae98d691133c1a1e9291140a019c68591">Circle</a>, <a class="el" href="classBox.html#ae03790bfac86b7bc91f105ab80aa1cc6">Box</a> и <a class="el" href="classLine.html#a80a0a29a89e8fd01cf68bfc4b02177f7">Line</a>.</p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classIFigure_a21e92da5ef50c88d5500ddac21c50842_icgraph.png" border="0" usemap="#classIFigure_a21e92da5ef50c88d5500ddac21c50842_icgraph" alt=""/></div>
+<map name="classIFigure_a21e92da5ef50c88d5500ddac21c50842_icgraph" id="classIFigure_a21e92da5ef50c88d5500ddac21c50842_icgraph">
+<area shape="rect" id="node2" href="classFigureWidget.html#a54cc57279fb744e09830a11a6717e226" title="FigureWidget::click" alt="" coords="155,5,290,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa5ff48ffdc52cfcb90832184b090106c"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int IFigure::getId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещается в <a class="el" href="classPoint.html#aa46fc18deefada5c7831f80dc04726d9">Point</a> и <a class="el" href="classFigureBase.html#ae088aac86b74e29bd72b2e98a0667a68">FigureBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a607fe28c7b292ea8a7b25ca2156dc623"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const char* IFigure::getName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещается в <a class="el" href="classPoint.html#a2f374cd73bb65df0b31665fc54de6200">Point</a> и <a class="el" href="classFigureBase.html#a57de8380ece3846b77a3e1019a49249d">FigureBase</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a85a3764ede75eef93a0fee69001364c4"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void IFigure::set </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>attribureName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещается в <a class="el" href="classPoint.html#a0fcbfa3d46a9f47acf7e3725fb79dd7a">Point</a> и <a class="el" href="classFigureBase.html#a19890fa32b94890913e80977e297f753">FigureBase</a>.</p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classIFigure_a85a3764ede75eef93a0fee69001364c4_icgraph.png" border="0" usemap="#classIFigure_a85a3764ede75eef93a0fee69001364c4_icgraph" alt=""/></div>
+<map name="classIFigure_a85a3764ede75eef93a0fee69001364c4_icgraph" id="classIFigure_a85a3764ede75eef93a0fee69001364c4_icgraph">
+<area shape="rect" id="node2" href="classFigureWidget.html#a54cc57279fb744e09830a11a6717e226" title="FigureWidget::click" alt="" coords="142,5,277,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ae8f8bbd46d421970ec45b400999346b2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const std::vector&lt;std::string&gt;&amp; IFigure::showAttributeNames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещается в <a class="el" href="classPoint.html#a39ac1dabae9133892e67965b8bbadd75">Point</a>, <a class="el" href="classCircle.html#a49ddbe8ce715ab7ae4cfa74df388563a">Circle</a>, <a class="el" href="classBox.html#a98c718a9c34cf7ca35a77a22df707c0e">Box</a> и <a class="el" href="classLine.html#adfcf62d0f173f9fb9d8406066fb8b797">Line</a>.</p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classIFigure_ae8f8bbd46d421970ec45b400999346b2_icgraph.png" border="0" usemap="#classIFigure_ae8f8bbd46d421970ec45b400999346b2_icgraph" alt=""/></div>
+<map name="classIFigure_ae8f8bbd46d421970ec45b400999346b2_icgraph" id="classIFigure_ae8f8bbd46d421970ec45b400999346b2_icgraph">
+<area shape="rect" id="node2" href="classFigureWidget.html#ab14bfb59066765bb194cca09167bef0c" title="FigureWidget::FigureWidget" alt="" coords="245,5,429,32"/><area shape="rect" id="node3" href="classFigureWidget.html#a54cc57279fb744e09830a11a6717e226" title="FigureWidget::click" alt="" coords="270,56,405,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>include/<a class="el" href="figures_8h_source.html">figures.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

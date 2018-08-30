@@ -1,0 +1,6 @@
+<map id="NewDocumetWidger::click" name="NewDocumetWidger::click">
+<area shape="rect" id="node2" href="$classController.html#a3a7f06e3192e5f0ee86c4bf36b6e18f3" title="Controller::newDocument" alt="" coords="232,31,403,57"/>
+<area shape="rect" id="node3" href="$structIShower.html#afed5e6ca21d556b5590ed1c41b1bf920" title="IShower::show" alt="" coords="468,5,577,32"/>
+<area shape="rect" id="node4" href="$classModel.html#a9113033414cab6106dfb5d86c463dbd7" title="Model::prepareBoard" alt="" coords="451,56,594,83"/>
+<area shape="rect" id="node5" href="$classModel.html#aa9c3b4fd5ce5185db83e5c9acaa952b8" title="Model::plotFiguresOnBoar" alt="" coords="643,56,816,83"/>
+</map>

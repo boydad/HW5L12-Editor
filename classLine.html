@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>HW5L12-Editor: Класс Line</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">HW5L12-Editor
+   </div>
+   <div id="projectbrief">Homework 5 from lesson 12</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="classes.html"><span>Алфавитный&#160;указатель&#160;классов</span></a></li>
+      <li><a href="inherits.html"><span>Иерархия&#160;классов</span></a></li>
+      <li><a href="functions.html"><span>Члены&#160;классов</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Классы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Определения типов</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="classLine-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс Line</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="figures_8h_source.html">figures.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф наследования:Line:</div>
+<div class="dyncontent">
+<div class="center"><img src="classLine__inherit__graph.png" border="0" usemap="#Line_inherit__map" alt="Inheritance graph"/></div>
+<map name="Line_inherit__map" id="Line_inherit__map">
+<area shape="rect" id="node2" href="classFigureBase.html" title="FigureBase" alt="" coords="5,80,93,107"/><area shape="rect" id="node3" href="classIFigure.html" title="IFigure" alt="" coords="18,5,80,32"/></map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<div class="dynheader">
+Граф связей класса Line:</div>
+<div class="dyncontent">
+<div class="center"><img src="classLine__coll__graph.png" border="0" usemap="#Line_coll__map" alt="Collaboration graph"/></div>
+<map name="Line_coll__map" id="Line_coll__map">
+<area shape="rect" id="node2" href="classFigureBase.html" title="FigureBase" alt="" coords="184,112,272,139"/><area shape="rect" id="node3" href="classIFigure.html" title="IFigure" alt="" coords="5,13,67,40"/></map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:acc11b8a429d8cdd63ba6803dff5602b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLine.html#acc11b8a429d8cdd63ba6803dff5602b3">Line</a> ()</td></tr>
+<tr class="separator:acc11b8a429d8cdd63ba6803dff5602b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfcf62d0f173f9fb9d8406066fb8b797"><td class="memItemLeft" align="right" valign="top">virtual const std::vector<br class="typebreak"/>
+&lt; std::string &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLine.html#adfcf62d0f173f9fb9d8406066fb8b797">showAttributeNames</a> () const final</td></tr>
+<tr class="separator:adfcf62d0f173f9fb9d8406066fb8b797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80a0a29a89e8fd01cf68bfc4b02177f7"><td class="memItemLeft" align="right" valign="top">virtual std::unique_ptr&lt; <a class="el" href="classIFigure.html">IFigure</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLine.html#a80a0a29a89e8fd01cf68bfc4b02177f7">clone</a> () const override</td></tr>
+<tr class="separator:a80a0a29a89e8fd01cf68bfc4b02177f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classFigureBase"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classFigureBase')"><img src="closed.png" alt="-"/>&#160;Открытые члены унаследованные от <a class="el" href="classFigureBase.html">FigureBase</a></td></tr>
+<tr class="memitem:a8832bd798ee79e87b9fda0ed3c46e4f6 inherit pub_methods_classFigureBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFigureBase.html#a8832bd798ee79e87b9fda0ed3c46e4f6">FigureBase</a> (const char *<a class="el" href="classFigureBase.html#a716af856dd752ff917d85049c6b97016">name</a>)</td></tr>
+<tr class="separator:a8832bd798ee79e87b9fda0ed3c46e4f6 inherit pub_methods_classFigureBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15cae181cf3c4f62207f632d84212884 inherit pub_methods_classFigureBase"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFigureBase.html#a15cae181cf3c4f62207f632d84212884">FigureBase</a> (const <a class="el" href="classFigureBase.html">FigureBase</a> &amp;other)</td></tr>
+<tr class="separator:a15cae181cf3c4f62207f632d84212884 inherit pub_methods_classFigureBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d72d9607fa266355aaeca7c8f57230f inherit pub_methods_classFigureBase"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFigureBase.html#a3d72d9607fa266355aaeca7c8f57230f">~FigureBase</a> ()=default</td></tr>
+<tr class="separator:a3d72d9607fa266355aaeca7c8f57230f inherit pub_methods_classFigureBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc391db9bb2d91b5db5ff000d21f6f56 inherit pub_methods_classFigureBase"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classFigureBase.html">FigureBase</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFigureBase.html#abc391db9bb2d91b5db5ff000d21f6f56">operator=</a> (const <a class="el" href="classFigureBase.html">FigureBase</a> &amp;other)=delete</td></tr>
+<tr class="separator:abc391db9bb2d91b5db5ff000d21f6f56 inherit pub_methods_classFigureBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19890fa32b94890913e80977e297f753 inherit pub_methods_classFigureBase"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFigureBase.html#a19890fa32b94890913e80977e297f753">set</a> (const std::string &amp;<a class="el" href="classFigureBase.html#a716af856dd752ff917d85049c6b97016">name</a>, const std::string &amp;attribute) override</td></tr>
+<tr class="separator:a19890fa32b94890913e80977e297f753 inherit pub_methods_classFigureBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae088aac86b74e29bd72b2e98a0667a68 inherit pub_methods_classFigureBase"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFigureBase.html#ae088aac86b74e29bd72b2e98a0667a68">getId</a> () override</td></tr>
+<tr class="separator:ae088aac86b74e29bd72b2e98a0667a68 inherit pub_methods_classFigureBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57de8380ece3846b77a3e1019a49249d inherit pub_methods_classFigureBase"><td class="memItemLeft" align="right" valign="top">virtual const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFigureBase.html#a57de8380ece3846b77a3e1019a49249d">getName</a> () override</td></tr>
+<tr class="separator:a57de8380ece3846b77a3e1019a49249d inherit pub_methods_classFigureBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+Дополнительные унаследованные члены</h2></td></tr>
+<tr class="inherit_header pro_static_methods_classFigureBase"><td colspan="2" onclick="javascript:toggleInherit('pro_static_methods_classFigureBase')"><img src="closed.png" alt="-"/>&#160;Защищенные статические члены унаследованные от <a class="el" href="classFigureBase.html">FigureBase</a></td></tr>
+<tr class="memitem:aaccd01e09aa4f4e8ba43b950a939339f inherit pro_static_methods_classFigureBase"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFigureBase.html#aaccd01e09aa4f4e8ba43b950a939339f">generateUniqueId</a> ()</td></tr>
+<tr class="separator:aaccd01e09aa4f4e8ba43b950a939339f inherit pro_static_methods_classFigureBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_classFigureBase"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classFigureBase')"><img src="closed.png" alt="-"/>&#160;Защищенные данные унаследованные от <a class="el" href="classFigureBase.html">FigureBase</a></td></tr>
+<tr class="memitem:a8c3513f7bbdbbb76932837003fdae7f5 inherit pro_attribs_classFigureBase"><td class="memItemLeft" align="right" valign="top">std::unordered_map<br class="typebreak"/>
+&lt; std::string, int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFigureBase.html#a8c3513f7bbdbbb76932837003fdae7f5">attributes</a></td></tr>
+<tr class="separator:a8c3513f7bbdbbb76932837003fdae7f5 inherit pro_attribs_classFigureBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f06dd50669590353f71863c95a3f000 inherit pro_attribs_classFigureBase"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFigureBase.html#a0f06dd50669590353f71863c95a3f000">id</a></td></tr>
+<tr class="separator:a0f06dd50669590353f71863c95a3f000 inherit pro_attribs_classFigureBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a716af856dd752ff917d85049c6b97016 inherit pro_attribs_classFigureBase"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classFigureBase.html#a716af856dd752ff917d85049c6b97016">name</a></td></tr>
+<tr class="separator:a716af856dd752ff917d85049c6b97016 inherit pro_attribs_classFigureBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Конструктор(ы)</h2>
+<a class="anchor" id="acc11b8a429d8cdd63ba6803dff5602b3"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Line::Line </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classLine_acc11b8a429d8cdd63ba6803dff5602b3_icgraph.png" border="0" usemap="#classLine_acc11b8a429d8cdd63ba6803dff5602b3_icgraph" alt=""/></div>
+<map name="classLine_acc11b8a429d8cdd63ba6803dff5602b3_icgraph" id="classLine_acc11b8a429d8cdd63ba6803dff5602b3_icgraph">
+<area shape="rect" id="node2" href="classLine.html#a80a0a29a89e8fd01cf68bfc4b02177f7" title="Line::clone" alt="" coords="133,5,219,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a class="anchor" id="a80a0a29a89e8fd01cf68bfc4b02177f7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual std::unique_ptr&lt;<a class="el" href="classIFigure.html">IFigure</a>&gt; Line::clone </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещает <a class="el" href="classIFigure.html#a21e92da5ef50c88d5500ddac21c50842">IFigure</a>.</p>
+
+<p><div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="classLine_a80a0a29a89e8fd01cf68bfc4b02177f7_cgraph.png" border="0" usemap="#classLine_a80a0a29a89e8fd01cf68bfc4b02177f7_cgraph" alt=""/></div>
+<map name="classLine_a80a0a29a89e8fd01cf68bfc4b02177f7_cgraph" id="classLine_a80a0a29a89e8fd01cf68bfc4b02177f7_cgraph">
+<area shape="rect" id="node2" href="classLine.html#acc11b8a429d8cdd63ba6803dff5602b3" title="Line::Line" alt="" coords="139,5,218,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="adfcf62d0f173f9fb9d8406066fb8b797"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual const std::vector&lt;std::string&gt;&amp; Line::showAttributeNames </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">final</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещает <a class="el" href="classIFigure.html#ae8f8bbd46d421970ec45b400999346b2">IFigure</a>.</p>
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>include/<a class="el" href="figures_8h_source.html">figures.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

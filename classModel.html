@@ -1,0 +1,472 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>HW5L12-Editor: Класс Model</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">HW5L12-Editor
+   </div>
+   <div id="projectbrief">Homework 5 from lesson 12</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="classes.html"><span>Алфавитный&#160;указатель&#160;классов</span></a></li>
+      <li><a href="inherits.html"><span>Иерархия&#160;классов</span></a></li>
+      <li><a href="functions.html"><span>Члены&#160;классов</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Классы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Определения типов</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pri-methods">Закрытые члены</a> &#124;
+<a href="#pri-attribs">Закрытые данные</a> &#124;
+<a href="classModel-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс Model</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="model_8h_source.html">model.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф связей класса Model:</div>
+<div class="dyncontent">
+<div class="center"><img src="classModel__coll__graph.png" border="0" usemap="#Model_coll__map" alt="Collaboration graph"/></div>
+<map name="Model_coll__map" id="Model_coll__map">
+</map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:ae3b375de5f6df4faf74a95d64748e048"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#ae3b375de5f6df4faf74a95d64748e048">Model</a> ()</td></tr>
+<tr class="separator:ae3b375de5f6df4faf74a95d64748e048"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96dc3ed3bccd3df2f9274e4ab4ff05ff"><td class="memItemLeft" align="right" valign="top">const std::vector<br class="typebreak"/>
+&lt; std::unique_ptr&lt; <a class="el" href="classIFigure.html">IFigure</a> &gt; &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#a96dc3ed3bccd3df2f9274e4ab4ff05ff">getFigureTypes</a> ()</td></tr>
+<tr class="separator:a96dc3ed3bccd3df2f9274e4ab4ff05ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4130ac7cf9a72c3059bc4678c8d23fb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#a4130ac7cf9a72c3059bc4678c8d23fb2">add</a> (std::unique_ptr&lt; <a class="el" href="classIFigure.html">IFigure</a> &gt; &amp;fig)</td></tr>
+<tr class="separator:a4130ac7cf9a72c3059bc4678c8d23fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d18bc38d7f193c18c2bf7ad6252f575"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#a3d18bc38d7f193c18c2bf7ad6252f575">remove</a> (const int id)</td></tr>
+<tr class="separator:a3d18bc38d7f193c18c2bf7ad6252f575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9113033414cab6106dfb5d86c463dbd7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="board_8h.html#a8a876a823c24ae1aadd1dbe8507e0f9a">Board</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#a9113033414cab6106dfb5d86c463dbd7">prepareBoard</a> ()</td></tr>
+<tr class="separator:a9113033414cab6106dfb5d86c463dbd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0666737e20e2bb451ed7447b1fcb2522"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#a0666737e20e2bb451ed7447b1fcb2522">loadDataFrom</a> (std::ifstream &amp;file)</td></tr>
+<tr class="separator:a0666737e20e2bb451ed7447b1fcb2522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac78c36ee9bb29165861e0b4e4ed3028a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#ac78c36ee9bb29165861e0b4e4ed3028a">saveDate</a> (std::ofstream &amp;file)</td></tr>
+<tr class="separator:ac78c36ee9bb29165861e0b4e4ed3028a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Закрытые члены</h2></td></tr>
+<tr class="memitem:aa9c3b4fd5ce5185db83e5c9acaa952b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#aa9c3b4fd5ce5185db83e5c9acaa952b8">plotFiguresOnBoar</a> ()</td></tr>
+<tr class="separator:aa9c3b4fd5ce5185db83e5c9acaa952b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:ae0625bfff05975572077c121e26eb213"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; int, <br class="typebreak"/>
+std::unique_ptr&lt; <a class="el" href="classIFigure.html">IFigure</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#ae0625bfff05975572077c121e26eb213">figures</a></td></tr>
+<tr class="separator:ae0625bfff05975572077c121e26eb213"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c73aeb71b6c343d54c0acf10d3d34d7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classIFigure.html">IFigure</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#a8c73aeb71b6c343d54c0acf10d3d34d7">figureTypes</a></td></tr>
+<tr class="separator:a8c73aeb71b6c343d54c0acf10d3d34d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab230c2c501c11acff4132052c443bed6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="board_8h.html#a8a876a823c24ae1aadd1dbe8507e0f9a">Board</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModel.html#ab230c2c501c11acff4132052c443bed6">board</a></td></tr>
+<tr class="separator:ab230c2c501c11acff4132052c443bed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Конструктор(ы)</h2>
+<a class="anchor" id="ae3b375de5f6df4faf74a95d64748e048"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Model::Model </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a class="anchor" id="a4130ac7cf9a72c3059bc4678c8d23fb2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Model::add </td>
+          <td>(</td>
+          <td class="paramtype">std::unique_ptr&lt; <a class="el" href="classIFigure.html">IFigure</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>fig</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classModel_a4130ac7cf9a72c3059bc4678c8d23fb2_icgraph.png" border="0" usemap="#classModel_a4130ac7cf9a72c3059bc4678c8d23fb2_icgraph" alt=""/></div>
+<map name="classModel_a4130ac7cf9a72c3059bc4678c8d23fb2_icgraph" id="classModel_a4130ac7cf9a72c3059bc4678c8d23fb2_icgraph">
+<area shape="rect" id="node2" href="classController.html#a9a3867c97cb85036637c012346ce019b" title="Controller::add" alt="" coords="141,5,248,32"/><area shape="rect" id="node3" href="classFigureWidget.html#a54cc57279fb744e09830a11a6717e226" title="FigureWidget::click" alt="" coords="297,5,431,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a96dc3ed3bccd3df2f9274e4ab4ff05ff"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt; std::unique_ptr&lt;<a class="el" href="classIFigure.html">IFigure</a>&gt; &gt;&amp; Model::getFigureTypes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classModel_a96dc3ed3bccd3df2f9274e4ab4ff05ff_icgraph.png" border="0" usemap="#classModel_a96dc3ed3bccd3df2f9274e4ab4ff05ff_icgraph" alt=""/></div>
+<map name="classModel_a96dc3ed3bccd3df2f9274e4ab4ff05ff_icgraph" id="classModel_a96dc3ed3bccd3df2f9274e4ab4ff05ff_icgraph">
+<area shape="rect" id="node2" href="classController.html#afaac357e4e5a23ddd2ce34bfcb084188" title="Controller::getPossibleFigures" alt="" coords="208,5,405,32"/><area shape="rect" id="node3" href="classView.html#ae545e5457211211e977a10b37164aa95" title="View::View" alt="" coords="453,5,541,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a0666737e20e2bb451ed7447b1fcb2522"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Model::loadDataFrom </td>
+          <td>(</td>
+          <td class="paramtype">std::ifstream &amp;&#160;</td>
+          <td class="paramname"><em>file</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classModel_a0666737e20e2bb451ed7447b1fcb2522_icgraph.png" border="0" usemap="#classModel_a0666737e20e2bb451ed7447b1fcb2522_icgraph" alt=""/></div>
+<map name="classModel_a0666737e20e2bb451ed7447b1fcb2522_icgraph" id="classModel_a0666737e20e2bb451ed7447b1fcb2522_icgraph">
+<area shape="rect" id="node2" href="classController.html#ac185ae48681009baf6d76957c0115f35" title="Controller::importFrom" alt="" coords="200,5,352,32"/><area shape="rect" id="node3" href="classImporterWidger.html#af06f7011c3389ea462b4384cfcd1bc80" title="ImporterWidger::click" alt="" coords="400,5,547,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="aa9c3b4fd5ce5185db83e5c9acaa952b8"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Model::plotFiguresOnBoar </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classModel_aa9c3b4fd5ce5185db83e5c9acaa952b8_icgraph.png" border="0" usemap="#classModel_aa9c3b4fd5ce5185db83e5c9acaa952b8_icgraph" alt=""/></div>
+<map name="classModel_aa9c3b4fd5ce5185db83e5c9acaa952b8_icgraph" id="classModel_aa9c3b4fd5ce5185db83e5c9acaa952b8_icgraph">
+<area shape="rect" id="node2" href="classModel.html#a9113033414cab6106dfb5d86c463dbd7" title="Model::prepareBoard" alt="" coords="227,81,370,108"/><area shape="rect" id="node3" href="classController.html#a3a7f06e3192e5f0ee86c4bf36b6e18f3" title="Controller::newDocument" alt="" coords="419,5,589,32"/><area shape="rect" id="node5" href="classController.html#ac185ae48681009baf6d76957c0115f35" title="Controller::importFrom" alt="" coords="428,56,580,83"/><area shape="rect" id="node7" href="classController.html#a9a3867c97cb85036637c012346ce019b" title="Controller::add" alt="" coords="451,107,557,133"/><area shape="rect" id="node9" href="classController.html#a3c9e3e285867176a9eea9ce0384810e5" title="Controller::deleteFigure" alt="" coords="425,161,583,188"/><area shape="rect" id="node4" href="classNewDocumetWidger.html#af63fc1d4cf1abb352dee2b305a529e4a" title="NewDocumetWidger::click" alt="" coords="637,5,816,32"/><area shape="rect" id="node6" href="classImporterWidger.html#af06f7011c3389ea462b4384cfcd1bc80" title="ImporterWidger::click" alt="" coords="653,56,800,83"/><area shape="rect" id="node8" href="classFigureWidget.html#a54cc57279fb744e09830a11a6717e226" title="FigureWidget::click" alt="" coords="659,107,794,133"/><area shape="rect" id="node10" href="classFigureDeleterWidget.html#aad2166db7762fbf6b5d822cc3dbf8309" title="FigureDeleterWidget\l::click" alt="" coords="656,158,797,199"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a9113033414cab6106dfb5d86c463dbd7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="board_8h.html#a8a876a823c24ae1aadd1dbe8507e0f9a">Board</a>&amp; Model::prepareBoard </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="classModel_a9113033414cab6106dfb5d86c463dbd7_cgraph.png" border="0" usemap="#classModel_a9113033414cab6106dfb5d86c463dbd7_cgraph" alt=""/></div>
+<map name="classModel_a9113033414cab6106dfb5d86c463dbd7_cgraph" id="classModel_a9113033414cab6106dfb5d86c463dbd7_cgraph">
+<area shape="rect" id="node2" href="classModel.html#aa9c3b4fd5ce5185db83e5c9acaa952b8" title="Model::plotFiguresOnBoar" alt="" coords="197,5,371,32"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classModel_a9113033414cab6106dfb5d86c463dbd7_icgraph.png" border="0" usemap="#classModel_a9113033414cab6106dfb5d86c463dbd7_icgraph" alt=""/></div>
+<map name="classModel_a9113033414cab6106dfb5d86c463dbd7_icgraph" id="classModel_a9113033414cab6106dfb5d86c463dbd7_icgraph">
+<area shape="rect" id="node2" href="classController.html#a3a7f06e3192e5f0ee86c4bf36b6e18f3" title="Controller::newDocument" alt="" coords="197,5,368,32"/><area shape="rect" id="node4" href="classController.html#ac185ae48681009baf6d76957c0115f35" title="Controller::importFrom" alt="" coords="207,56,359,83"/><area shape="rect" id="node6" href="classController.html#a9a3867c97cb85036637c012346ce019b" title="Controller::add" alt="" coords="229,107,336,133"/><area shape="rect" id="node8" href="classController.html#a3c9e3e285867176a9eea9ce0384810e5" title="Controller::deleteFigure" alt="" coords="204,161,361,188"/><area shape="rect" id="node3" href="classNewDocumetWidger.html#af63fc1d4cf1abb352dee2b305a529e4a" title="NewDocumetWidger::click" alt="" coords="416,5,595,32"/><area shape="rect" id="node5" href="classImporterWidger.html#af06f7011c3389ea462b4384cfcd1bc80" title="ImporterWidger::click" alt="" coords="432,56,579,83"/><area shape="rect" id="node7" href="classFigureWidget.html#a54cc57279fb744e09830a11a6717e226" title="FigureWidget::click" alt="" coords="438,107,573,133"/><area shape="rect" id="node9" href="classFigureDeleterWidget.html#aad2166db7762fbf6b5d822cc3dbf8309" title="FigureDeleterWidget\l::click" alt="" coords="435,158,576,199"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a3d18bc38d7f193c18c2bf7ad6252f575"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Model::remove </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classModel_a3d18bc38d7f193c18c2bf7ad6252f575_icgraph.png" border="0" usemap="#classModel_a3d18bc38d7f193c18c2bf7ad6252f575_icgraph" alt=""/></div>
+<map name="classModel_a3d18bc38d7f193c18c2bf7ad6252f575_icgraph" id="classModel_a3d18bc38d7f193c18c2bf7ad6252f575_icgraph">
+<area shape="rect" id="node2" href="classController.html#a3c9e3e285867176a9eea9ce0384810e5" title="Controller::deleteFigure" alt="" coords="163,12,320,39"/><area shape="rect" id="node3" href="classFigureDeleterWidget.html#aad2166db7762fbf6b5d822cc3dbf8309" title="FigureDeleterWidget\l::click" alt="" coords="368,5,509,46"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac78c36ee9bb29165861e0b4e4ed3028a"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Model::saveDate </td>
+          <td>(</td>
+          <td class="paramtype">std::ofstream &amp;&#160;</td>
+          <td class="paramname"><em>file</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classModel_ac78c36ee9bb29165861e0b4e4ed3028a_icgraph.png" border="0" usemap="#classModel_ac78c36ee9bb29165861e0b4e4ed3028a_icgraph" alt=""/></div>
+<map name="classModel_ac78c36ee9bb29165861e0b4e4ed3028a_icgraph" id="classModel_ac78c36ee9bb29165861e0b4e4ed3028a_icgraph">
+<area shape="rect" id="node2" href="classController.html#ac1de9c23e1872361fbeaa9bb276bdd3c" title="Controller::exportAs" alt="" coords="176,5,315,32"/><area shape="rect" id="node3" href="classExporterWidget.html#a1a6c5fb61ea2069e7162acfe6c9d7153" title="ExporterWidget::click" alt="" coords="363,5,509,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a class="anchor" id="ab230c2c501c11acff4132052c443bed6"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="board_8h.html#a8a876a823c24ae1aadd1dbe8507e0f9a">Board</a> Model::board</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ae0625bfff05975572077c121e26eb213"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;int, std::unique_ptr&lt;<a class="el" href="classIFigure.html">IFigure</a>&gt; &gt; Model::figures</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8c73aeb71b6c343d54c0acf10d3d34d7"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::unique_ptr&lt;<a class="el" href="classIFigure.html">IFigure</a>&gt; &gt; Model::figureTypes</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>include/<a class="el" href="model_8h_source.html">model.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

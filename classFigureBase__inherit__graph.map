@@ -1,0 +1,6 @@
+<map id="FigureBase" name="FigureBase">
+<area shape="rect" id="node3" href="$classBox.html" title="Box" alt="" coords="5,155,51,181"/>
+<area shape="rect" id="node4" href="$classCircle.html" title="Circle" alt="" coords="75,155,129,181"/>
+<area shape="rect" id="node5" href="$classLine.html" title="Line" alt="" coords="155,155,201,181"/>
+<area shape="rect" id="node2" href="$classIFigure.html" title="IFigure" alt="" coords="71,5,133,32"/>
+</map>

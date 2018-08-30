@@ -1,0 +1,319 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>HW5L12-Editor: Класс View</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">HW5L12-Editor
+   </div>
+   <div id="projectbrief">Homework 5 from lesson 12</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Титульная&#160;страница</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="files.html"><span>Файлы</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Поиск" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Классы</span></a></li>
+      <li><a href="classes.html"><span>Алфавитный&#160;указатель&#160;классов</span></a></li>
+      <li><a href="inherits.html"><span>Иерархия&#160;классов</span></a></li>
+      <li><a href="functions.html"><span>Члены&#160;классов</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Указатель</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Классы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Файлы</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Функции</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Переменные</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Определения типов</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Открытые члены</a> &#124;
+<a href="#pri-methods">Закрытые члены</a> &#124;
+<a href="#pri-attribs">Закрытые данные</a> &#124;
+<a href="classView-members.html">Полный список членов класса</a>  </div>
+  <div class="headertitle">
+<div class="title">Класс View</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="view_8h_source.html">view.h</a>&gt;</code></p>
+<div class="dynheader">
+Граф наследования:View:</div>
+<div class="dyncontent">
+<div class="center"><img src="classView__inherit__graph.png" border="0" usemap="#View_inherit__map" alt="Inheritance graph"/></div>
+<map name="View_inherit__map" id="View_inherit__map">
+<area shape="rect" id="node2" href="structIShower.html" title="IShower" alt="" coords="5,5,75,32"/></map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<div class="dynheader">
+Граф связей класса View:</div>
+<div class="dyncontent">
+<div class="center"><img src="classView__coll__graph.png" border="0" usemap="#View_coll__map" alt="Collaboration graph"/></div>
+<map name="View_coll__map" id="View_coll__map">
+<area shape="rect" id="node2" href="structIShower.html" title="IShower" alt="" coords="318,7,389,33"/><area shape="rect" id="node3" href="classController.html" title="Controller" alt="" coords="506,43,585,69"/><area shape="rect" id="node4" href="classModel.html" title="Model" alt="" coords="325,72,382,99"/></map>
+<center><span class="legend">[<a href="graph_legend.html">см. легенду</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Открытые члены</h2></td></tr>
+<tr class="memitem:ae545e5457211211e977a10b37164aa95"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classView.html#ae545e5457211211e977a10b37164aa95">View</a> (<a class="el" href="classController.html">Controller</a> &amp;<a class="el" href="classView.html#ab7c1df120024ff96b5b1e183d8a1eb60">controller</a>)</td></tr>
+<tr class="separator:ae545e5457211211e977a10b37164aa95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11e838c43751e3a78427d4b75403e93f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classView.html#a11e838c43751e3a78427d4b75403e93f">show</a> (const <a class="el" href="board_8h.html#a8a876a823c24ae1aadd1dbe8507e0f9a">Board</a> &amp;board) override</td></tr>
+<tr class="separator:a11e838c43751e3a78427d4b75403e93f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab982edd82daa3311d87e3ab891785b58"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classView.html#ab982edd82daa3311d87e3ab891785b58">start</a> ()</td></tr>
+<tr class="separator:ab982edd82daa3311d87e3ab891785b58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Закрытые члены</h2></td></tr>
+<tr class="memitem:abfb1b29b2326f063c2c4c46013f93f81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classView.html#abfb1b29b2326f063c2c4c46013f93f81">showWidgets</a> ()</td></tr>
+<tr class="separator:abfb1b29b2326f063c2c4c46013f93f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Закрытые данные</h2></td></tr>
+<tr class="memitem:ab7c1df120024ff96b5b1e183d8a1eb60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classController.html">Controller</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classView.html#ab7c1df120024ff96b5b1e183d8a1eb60">controller</a></td></tr>
+<tr class="separator:ab7c1df120024ff96b5b1e183d8a1eb60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af19fe03c81a4ae8a520a3def25bafa74"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::unique_ptr<br class="typebreak"/>
+&lt; <a class="el" href="classWidget.html">Widget</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classView.html#af19fe03c81a4ae8a520a3def25bafa74">widgets</a></td></tr>
+<tr class="separator:af19fe03c81a4ae8a520a3def25bafa74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Конструктор(ы)</h2>
+<a class="anchor" id="ae545e5457211211e977a10b37164aa95"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">View::View </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classController.html">Controller</a> &amp;&#160;</td>
+          <td class="paramname"><em>controller</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="classView_ae545e5457211211e977a10b37164aa95_cgraph.png" border="0" usemap="#classView_ae545e5457211211e977a10b37164aa95_cgraph" alt=""/></div>
+<map name="classView_ae545e5457211211e977a10b37164aa95_cgraph" id="classView_ae545e5457211211e977a10b37164aa95_cgraph">
+<area shape="rect" id="node2" href="classController.html#a70ecb0ada02505b51d43b908d209f75b" title="Controller::subscribe" alt="" coords="169,5,311,32"/><area shape="rect" id="node3" href="classController.html#afaac357e4e5a23ddd2ce34bfcb084188" title="Controller::getPossibleFigures" alt="" coords="141,56,339,83"/><area shape="rect" id="node4" href="classModel.html#a96dc3ed3bccd3df2f9274e4ab4ff05ff" title="Model::getFigureTypes" alt="" coords="387,56,541,83"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Методы</h2>
+<a class="anchor" id="a11e838c43751e3a78427d4b75403e93f"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void View::show </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="board_8h.html#a8a876a823c24ae1aadd1dbe8507e0f9a">Board</a> &amp;&#160;</td>
+          <td class="paramname"><em>board</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Замещает <a class="el" href="structIShower.html#afed5e6ca21d556b5590ed1c41b1bf920">IShower</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abfb1b29b2326f063c2c4c46013f93f81"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void View::showWidgets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classView_abfb1b29b2326f063c2c4c46013f93f81_icgraph.png" border="0" usemap="#classView_abfb1b29b2326f063c2c4c46013f93f81_icgraph" alt=""/></div>
+<map name="classView_abfb1b29b2326f063c2c4c46013f93f81_icgraph" id="classView_abfb1b29b2326f063c2c4c46013f93f81_icgraph">
+<area shape="rect" id="node2" href="classView.html#ab982edd82daa3311d87e3ab891785b58" title="View::start" alt="" coords="192,5,277,32"/><area shape="rect" id="node3" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="325,5,376,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ab982edd82daa3311d87e3ab891785b58"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void View::start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><div class="dynheader">
+Граф вызовов:</div>
+<div class="dyncontent">
+<div class="center"><img src="classView_ab982edd82daa3311d87e3ab891785b58_cgraph.png" border="0" usemap="#classView_ab982edd82daa3311d87e3ab891785b58_cgraph" alt=""/></div>
+<map name="classView_ab982edd82daa3311d87e3ab891785b58_cgraph" id="classView_ab982edd82daa3311d87e3ab891785b58_cgraph">
+<area shape="rect" id="node2" href="classView.html#abfb1b29b2326f063c2c4c46013f93f81" title="View::showWidgets" alt="" coords="139,5,277,32"/></map>
+</div>
+</p>
+
+<p><div class="dynheader">
+Граф вызова функции:</div>
+<div class="dyncontent">
+<div class="center"><img src="classView_ab982edd82daa3311d87e3ab891785b58_icgraph.png" border="0" usemap="#classView_ab982edd82daa3311d87e3ab891785b58_icgraph" alt=""/></div>
+<map name="classView_ab982edd82daa3311d87e3ab891785b58_icgraph" id="classView_ab982edd82daa3311d87e3ab891785b58_icgraph">
+<area shape="rect" id="node2" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title="main" alt="" coords="139,5,189,32"/></map>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Данные класса</h2>
+<a class="anchor" id="ab7c1df120024ff96b5b1e183d8a1eb60"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classController.html">Controller</a>&amp; View::controller</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="af19fe03c81a4ae8a520a3def25bafa74"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; std::unique_ptr&lt;<a class="el" href="classWidget.html">Widget</a>&gt; &gt; View::widgets</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>Объявления и описания членов класса находятся в файле:<ul>
+<li>include/<a class="el" href="view_8h_source.html">view.h</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>
