@@ -1,6 +1,7 @@
 #pragma once
 
 #include <fstream>
+#include <string>
 #include "figures.h"
 #include "model.h"
 #include "IShower.h"
@@ -19,6 +20,7 @@ public:
   }
   
   void newDocument(const std::string& path){
+    path.size();
     view->show(model.prepareBoard());
   }
   
@@ -44,8 +46,8 @@ public:
     view->show(model.prepareBoard());
   }
   
-  const decltype(auto) getPossibleFigures(){
-    return (model.getFigureTypes());
+  const auto& getPossibleFigures(){
+    return model.getFigureTypes();
   }
   
 };

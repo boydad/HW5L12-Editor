@@ -35,7 +35,7 @@ public:
     widgets.emplace_back(new NewDocumetWidger(controller));        
   };
   
-  virtual void show(const Board& board) override { };  
+  virtual void show(const Board& board) override { (void)(board);};  
   
   void start(){
     this->showWidgets();    

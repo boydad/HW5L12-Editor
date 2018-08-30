@@ -11,7 +11,7 @@ add_executable(HW5L12-Editor ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp ${version_
 set_target_properties(HW5L12-Editor PROPERTIES
   CXX_STANDARD 14
   CXX_STANDARD_REQUIRED ON
-  COMPILE_OPTIONS -Wpedantic -Wall -Wextra
+  COMPILE_FLAGS "-Wpedantic -Wall -Wextra"
 )
 
 install(TARGETS HW5L12-Editor DESTINATION bin)

@@ -14,7 +14,7 @@ public:
   
   virtual std::unique_ptr<IFigure> clone() const = 0;
   
-  virtual const int getId() = 0;
+  virtual int getId() = 0;
   
   virtual const char* getName() = 0;
   
@@ -27,7 +27,7 @@ protected:
   const int id;
   const char* name;
   
-static const int generateUniqueId(){
+static int generateUniqueId(){
   static int tmp = 0;
   tmp++;
   return tmp;
@@ -35,7 +35,7 @@ static const int generateUniqueId(){
   
 public:
   
-  FigureBase(const char* name): name(name), id(generateUniqueId()) {};
+  FigureBase(const char* name): id(generateUniqueId()), name(name) {};
   
   FigureBase(const FigureBase& other): attributes(other.attributes),
         id(generateUniqueId()) {};    
@@ -47,7 +47,7 @@ public:
     attributes[name] = stoi(attribute);
   }   
   
-  virtual const int getId() override{
+  virtual int getId() override{
     return id;
   }
   
@@ -140,7 +140,7 @@ public:
       y = tmp;
   };     
   
-  virtual const int getId(){    
+  virtual int getId() override{    
     return 0;
   }
   

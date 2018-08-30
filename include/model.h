@@ -2,6 +2,7 @@
 
 #include <unordered_map>
 #include <memory>
+#include <fstream>
 
 #include "figures.h"
 #include "board.h"
@@ -42,9 +43,9 @@ public:
     return board;
   }
   
-  void loadDataFrom(std::ifstream& file) {};
+  void loadDataFrom(std::ifstream& file) {(void)(file);}
   
-  void saveDate(std::ofstream& file) {};
+  void saveDate(std::ofstream& file) {(void)(file);};
   
   
 };

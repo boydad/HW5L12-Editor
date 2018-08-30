@@ -20,11 +20,11 @@ protected:
   
 public:
   
-  const decltype(auto) getFields(){
-    return (textFields);
+  const auto& getFields(){
+    return textFields;
   }
 
-  const decltype(auto) getLabel(){
+  const auto& getLabel(){
     return label;
   }    
 };
