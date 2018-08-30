@@ -15,4 +15,4 @@
 
 ## Результат
 
-[Диаграммы классов UML](https://boydad.github.io/HW5L12-Editor/)
+[Диаграммы классов](https://boydad.github.io/HW5L12-Editor/)
