@@ -1,4 +1,4 @@
 <map id="Box" name="Box">
-<area shape="rect" id="node2" href="$classFigureBase.html" title="FigureBase" alt="" coords="5,80,93,107"/>
-<area shape="rect" id="node3" href="$classIFigure.html" title="IFigure" alt="" coords="18,5,80,32"/>
+<area shape="rect" id="node2" href="$classFigureBase.html" title="{FigureBase\n|# attributes\l# id\l# name\l|+ FigureBase()\l+ FigureBase()\l+ ~FigureBase()\l+ operator=()\l+ set()\l+ getId()\l+ getName()\l# generateUniqueId()\l}" alt="" coords="15,190,157,399"/>
+<area shape="rect" id="node3" href="$classIFigure.html" title="{IFigure\n||+ showAttributeNames()\l+ set()\l+ clone()\l+ getId()\l+ getName()\l}" alt="" coords="5,5,168,141"/>
 </map>
