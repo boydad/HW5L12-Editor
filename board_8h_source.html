@@ -89,9 +89,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 </div><!--header-->
 <div class="contents">
 <a href="board_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="board_8h.html#a8a876a823c24ae1aadd1dbe8507e0f9a">    3</a></span>&#160;<span class="keyword">using</span> <a class="code" href="board_8h.html#a8a876a823c24ae1aadd1dbe8507e0f9a">Board</a> = std::array&lt;int, 100&gt;;</div>
-<div class="ttc" id="board_8h_html_a8a876a823c24ae1aadd1dbe8507e0f9a"><div class="ttname"><a href="board_8h.html#a8a876a823c24ae1aadd1dbe8507e0f9a">Board</a></div><div class="ttdeci">std::array&lt; int, 100 &gt; Board</div><div class="ttdef"><b>Definition:</b> board.h:3</div></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include &lt;array&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">namespace</span>{</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;  <span class="keyword">const</span> <span class="keywordtype">size_t</span> boardSize = 1000;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="board_8h.html#a11a9c2c3f6fee93cead51dd67ae7b4a9">    9</a></span>&#160;<span class="keyword">using</span> <a class="code" href="board_8h.html#a11a9c2c3f6fee93cead51dd67ae7b4a9">Board</a> = std::array&lt; std::array&lt;int, boardSize&gt; , boardSize&gt;;</div>
+<div class="ttc" id="board_8h_html_a11a9c2c3f6fee93cead51dd67ae7b4a9"><div class="ttname"><a href="board_8h.html#a11a9c2c3f6fee93cead51dd67ae7b4a9">Board</a></div><div class="ttdeci">std::array&lt; std::array&lt; int, boardSize &gt;, boardSize &gt; Board</div><div class="ttdef"><b>Definition:</b> board.h:9</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

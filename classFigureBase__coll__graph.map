@@ -1,3 +1,3 @@
 <map id="FigureBase" name="FigureBase">
-<area shape="rect" id="node2" href="$classIFigure.html" title="{IFigure\n||+ showAttributeNames()\l+ set()\l+ clone()\l+ getId()\l+ getName()\l}" alt="" coords="5,5,168,141"/>
+<area shape="rect" id="node2" href="$classIFigure.html" title="{IFigure\n||+ showAttributeNames()\l+ set()\l+ clone()\l+ getId()\l+ getName()\l+ ~IFigure()\l}" alt="" coords="5,6,168,157"/>
 </map>

@@ -1,7 +1,7 @@
 <map id="FigureWidget" name="FigureWidget">
-<area shape="rect" id="node2" href="$classWidget.html" title="{Widget\n||+ getFields()\l+ getLabel()\l# Widget()\l&#45; click()\l}" alt="" coords="99,438,193,559"/>
-<area shape="rect" id="node5" href="$classIFigure.html" title="{IFigure\n||+ showAttributeNames()\l+ set()\l+ clone()\l+ getId()\l+ getName()\l}" alt="" coords="218,431,381,567"/>
+<area shape="rect" id="node2" href="$classWidget.html" title="{Widget\n||+ ~Widget()\l+ getFields()\l+ getLabel()\l# Widget()\l&#45; click()\l}" alt="" coords="99,431,193,567"/>
+<area shape="rect" id="node5" href="$classIFigure.html" title="{IFigure\n||+ showAttributeNames()\l+ set()\l+ clone()\l+ getId()\l+ getName()\l+ ~IFigure()\l}" alt="" coords="218,423,381,574"/>
 <area shape="rect" id="node6" href="$classController.html" title="{Controller\n||+ Controller()\l+ subscribe()\l+ newDocument()\l+ importFrom()\l+ exportAs()\l+ add()\l+ deleteFigure()\l+ getPossibleFigures()\l}" alt="" coords="406,409,559,589"/>
-<area shape="rect" id="node7" href="$structIShower.html" title="{IShower\n||+ show()\l}" alt="" coords="407,215,480,292"/>
-<area shape="rect" id="node8" href="$classModel.html" title="{Model\n||+ Model()\l+ getFigureTypes()\l+ add()\l+ remove()\l+ prepareBoard()\l+ loadDataFrom()\l+ saveDate()\l&#45; plotFiguresOnBoar()\l}" alt="" coords="505,163,652,343"/>
+<area shape="rect" id="node7" href="$structIShower.html" title="{IShower\n||+ show()\l+ ~IShower()\l}" alt="" coords="397,207,496,299"/>
+<area shape="rect" id="node8" href="$classModel.html" title="{Model\n||+ Model()\l+ getFigureTypes()\l+ add()\l+ remove()\l+ prepareBoard()\l+ loadDataFrom()\l+ saveDate()\l&#45; plotFiguresOnBoar()\l}" alt="" coords="520,163,667,343"/>
 </map>

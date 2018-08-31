@@ -1,7 +1,7 @@
 <map id="Widget" name="Widget">
-<area shape="rect" id="node2" href="$classExporterWidget.html" title="{ExporterWidget\n|&#45; handler\l|+ ExporterWidget()\l+ click()\l}" alt="" coords="5,197,136,289"/>
-<area shape="rect" id="node3" href="$classFigureDeleterWidget.html" title="{FigureDeleterWidget\n|&#45; handler\l|+ FigureDeleterWidget()\l+ click()\l}" alt="" coords="161,197,321,289"/>
-<area shape="rect" id="node4" href="$classFigureWidget.html" title="{FigureWidget\n|&#45; fig\l&#45; handler\l|+ FigureWidget()\l+ click()\l}" alt="" coords="346,189,464,296"/>
-<area shape="rect" id="node5" href="$classImporterWidger.html" title="{ImporterWidger\n|&#45; handler\l|+ ImporterWidger()\l+ click()\l}" alt="" coords="488,197,617,289"/>
-<area shape="rect" id="node6" href="$classNewDocumetWidger.html" title="{NewDocumetWidger\n|&#45; handler\l|+ NewDocumetWidger()\l+ click()\l}" alt="" coords="643,197,805,289"/>
+<area shape="rect" id="node2" href="$classExporterWidget.html" title="{ExporterWidget\n|&#45; handler\l|+ ExporterWidget()\l+ click()\l}" alt="" coords="5,213,136,305"/>
+<area shape="rect" id="node3" href="$classFigureDeleterWidget.html" title="{FigureDeleterWidget\n|&#45; handler\l|+ FigureDeleterWidget()\l+ click()\l}" alt="" coords="161,213,321,305"/>
+<area shape="rect" id="node4" href="$classFigureWidget.html" title="{FigureWidget\n|&#45; fig\l&#45; handler\l|+ FigureWidget()\l+ click()\l}" alt="" coords="346,205,464,312"/>
+<area shape="rect" id="node5" href="$classImporterWidger.html" title="{ImporterWidger\n|&#45; handler\l|+ ImporterWidger()\l+ click()\l}" alt="" coords="488,213,617,305"/>
+<area shape="rect" id="node6" href="$classNewDocumetWidger.html" title="{NewDocumetWidger\n|&#45; handler\l|+ NewDocumetWidger()\l+ click()\l}" alt="" coords="643,213,805,305"/>
 </map>

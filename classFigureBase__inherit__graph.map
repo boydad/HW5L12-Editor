@@ -1,6 +1,6 @@
 <map id="FigureBase" name="FigureBase">
-<area shape="rect" id="node3" href="$classBox.html" title="{Box\n||+ Box()\l+ showAttributeNames()\l+ clone()\l}" alt="" coords="5,448,168,555"/>
-<area shape="rect" id="node4" href="$classCircle.html" title="{Circle\n||+ Circle()\l+ showAttributeNames()\l+ clone()\l}" alt="" coords="193,448,356,555"/>
-<area shape="rect" id="node5" href="$classLine.html" title="{Line\n||+ Line()\l+ showAttributeNames()\l+ clone()\l}" alt="" coords="381,448,544,555"/>
-<area shape="rect" id="node2" href="$classIFigure.html" title="{IFigure\n||+ showAttributeNames()\l+ set()\l+ clone()\l+ getId()\l+ getName()\l}" alt="" coords="193,5,356,141"/>
+<area shape="rect" id="node3" href="$classBox.html" title="{Box\n||+ Box()\l+ showAttributeNames()\l+ clone()\l}" alt="" coords="5,464,168,571"/>
+<area shape="rect" id="node4" href="$classCircle.html" title="{Circle\n||+ Circle()\l+ showAttributeNames()\l+ clone()\l}" alt="" coords="193,464,356,571"/>
+<area shape="rect" id="node5" href="$classLine.html" title="{Line\n||+ Line()\l+ showAttributeNames()\l+ clone()\l}" alt="" coords="381,464,544,571"/>
+<area shape="rect" id="node2" href="$classIFigure.html" title="{IFigure\n||+ showAttributeNames()\l+ set()\l+ clone()\l+ getId()\l+ getName()\l+ ~IFigure()\l}" alt="" coords="193,6,356,157"/>
 </map>

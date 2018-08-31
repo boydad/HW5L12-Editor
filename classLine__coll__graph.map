@@ -1,4 +1,4 @@
 <map id="Line" name="Line">
-<area shape="rect" id="node2" href="$classFigureBase.html" title="{FigureBase\n||+ FigureBase()\l+ FigureBase()\l+ ~FigureBase()\l+ operator=()\l+ set()\l+ getId()\l+ getName()\l# generateUniqueId()\l}" alt="" coords="258,206,400,386"/>
-<area shape="rect" id="node3" href="$classIFigure.html" title="{IFigure\n||+ showAttributeNames()\l+ set()\l+ clone()\l+ getId()\l+ getName()\l}" alt="" coords="5,5,168,141"/>
+<area shape="rect" id="node2" href="$classFigureBase.html" title="{FigureBase\n||+ FigureBase()\l+ FigureBase()\l+ ~FigureBase()\l+ operator=()\l+ set()\l+ getId()\l+ getName()\l# generateUniqueId()\l}" alt="" coords="258,222,400,402"/>
+<area shape="rect" id="node3" href="$classIFigure.html" title="{IFigure\n||+ showAttributeNames()\l+ set()\l+ clone()\l+ getId()\l+ getName()\l+ ~IFigure()\l}" alt="" coords="5,6,168,157"/>
 </map>

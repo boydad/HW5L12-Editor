@@ -1,5 +1,5 @@
 <map id="View" name="View">
-<area shape="rect" id="node2" href="$structIShower.html" title="{IShower\n||+ show()\l}" alt="" coords="105,215,177,292"/>
-<area shape="rect" id="node3" href="$classController.html" title="{Controller\n||+ Controller()\l+ subscribe()\l+ newDocument()\l+ importFrom()\l+ exportAs()\l+ add()\l+ deleteFigure()\l+ getPossibleFigures()\l}" alt="" coords="179,409,332,589"/>
-<area shape="rect" id="node4" href="$classModel.html" title="{Model\n||+ Model()\l+ getFigureTypes()\l+ add()\l+ remove()\l+ prepareBoard()\l+ loadDataFrom()\l+ saveDate()\l&#45; plotFiguresOnBoar()\l}" alt="" coords="203,163,349,343"/>
+<area shape="rect" id="node2" href="$structIShower.html" title="{IShower\n||+ show()\l+ ~IShower()\l}" alt="" coords="119,207,217,299"/>
+<area shape="rect" id="node3" href="$classController.html" title="{Controller\n||+ Controller()\l+ subscribe()\l+ newDocument()\l+ importFrom()\l+ exportAs()\l+ add()\l+ deleteFigure()\l+ getPossibleFigures()\l}" alt="" coords="206,409,359,589"/>
+<area shape="rect" id="node4" href="$classModel.html" title="{Model\n||+ Model()\l+ getFigureTypes()\l+ add()\l+ remove()\l+ prepareBoard()\l+ loadDataFrom()\l+ saveDate()\l&#45; plotFiguresOnBoar()\l}" alt="" coords="241,163,388,343"/>
 </map>
