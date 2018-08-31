@@ -18,7 +18,10 @@ protected:
   
   Widget(const char* label): label(label) {};
   
+  
 public:
+  
+  virtual ~Widget() = default;
   
   const auto& getFields(){
     return textFields;

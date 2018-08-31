@@ -1,3 +1,9 @@
 #pragma once
+#include <array>
 
-using Board = std::array<int, 100>;
+
+namespace{
+  const size_t boardSize = 1000;
+}
+
+using Board = std::array< std::array<int, boardSize> , boardSize>;
