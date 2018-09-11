@@ -90,14 +90,17 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <div class="contents">
 <a href="IShower_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="structIShower.html">    3</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structIShower.html">IShower</a>{</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="structIShower.html#afed5e6ca21d556b5590ed1c41b1bf920">show</a>(<span class="keyword">const</span> <a class="code" href="board_8h.html#a11a9c2c3f6fee93cead51dd67ae7b4a9">Board</a>&amp; board) = 0;</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;  <span class="keyword">virtual</span> <a class="code" href="structIShower.html#a73661001af2b3467f09b8907193dbe12">~IShower</a>() = <span class="keywordflow">default</span>;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;};</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="board_8h.html">board.h</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="structIShower.html">    5</a></span>&#160;<span class="keyword">struct </span><a class="code" href="structIShower.html">IShower</a>{</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="structIShower.html#afed5e6ca21d556b5590ed1c41b1bf920">show</a>(<span class="keyword">const</span> <a class="code" href="board_8h.html#a11a9c2c3f6fee93cead51dd67ae7b4a9">Board</a>&amp; board) = 0;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;  <span class="keyword">virtual</span> <a class="code" href="structIShower.html#a73661001af2b3467f09b8907193dbe12">~IShower</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;};</div>
 <div class="ttc" id="structIShower_html_a73661001af2b3467f09b8907193dbe12"><div class="ttname"><a href="structIShower.html#a73661001af2b3467f09b8907193dbe12">IShower::~IShower</a></div><div class="ttdeci">virtual ~IShower()=default</div></div>
 <div class="ttc" id="structIShower_html_afed5e6ca21d556b5590ed1c41b1bf920"><div class="ttname"><a href="structIShower.html#afed5e6ca21d556b5590ed1c41b1bf920">IShower::show</a></div><div class="ttdeci">virtual void show(const Board &amp;board)=0</div></div>
-<div class="ttc" id="structIShower_html"><div class="ttname"><a href="structIShower.html">IShower</a></div><div class="ttdef"><b>Definition:</b> IShower.h:3</div></div>
+<div class="ttc" id="structIShower_html"><div class="ttname"><a href="structIShower.html">IShower</a></div><div class="ttdef"><b>Definition:</b> IShower.h:5</div></div>
 <div class="ttc" id="board_8h_html_a11a9c2c3f6fee93cead51dd67ae7b4a9"><div class="ttname"><a href="board_8h.html#a11a9c2c3f6fee93cead51dd67ae7b4a9">Board</a></div><div class="ttdeci">std::array&lt; std::array&lt; int, boardSize &gt;, boardSize &gt; Board</div><div class="ttdef"><b>Definition:</b> board.h:9</div></div>
+<div class="ttc" id="board_8h_html"><div class="ttname"><a href="board_8h.html">board.h</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

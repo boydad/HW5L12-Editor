@@ -1,7 +1,7 @@
 <map id="IFigure" name="IFigure">
-<area shape="rect" id="node2" href="$classFigureBase.html" title="{FigureBase\n|# attributes\l# id\l# name\l|+ FigureBase()\l+ FigureBase()\l+ ~FigureBase()\l+ operator=()\l+ set()\l+ getId()\l+ getName()\l# generateUniqueId()\l}" alt="" coords="203,206,345,415"/>
-<area shape="rect" id="node6" href="$classPoint.html" title="{Point\n|&#45; x\l&#45; y\l&#45; name\l|+ Point()\l+ getName()\l+ showAttributeNames()\l+ clone()\l+ set()\l+ getId()\l}" alt="" coords="370,221,533,401"/>
-<area shape="rect" id="node3" href="$classBox.html" title="{Box\n||+ Box()\l+ showAttributeNames()\l+ clone()\l}" alt="" coords="5,464,168,571"/>
-<area shape="rect" id="node4" href="$classCircle.html" title="{Circle\n||+ Circle()\l+ showAttributeNames()\l+ clone()\l}" alt="" coords="193,464,356,571"/>
-<area shape="rect" id="node5" href="$classLine.html" title="{Line\n||+ Line()\l+ showAttributeNames()\l+ clone()\l}" alt="" coords="381,464,544,571"/>
+<area shape="rect" id="node2" href="$classFigureBase.html" title="{FigureBase\n|# attributes\l# id\l# name\l|+ FigureBase()\l+ FigureBase()\l+ ~FigureBase()\l+ operator=()\l+ set()\l+ getId()\l+ getName()\l+ generateUniqueId()\l}" alt="" coords="183,206,327,415"/>
+<area shape="rect" id="node6" href="$classPoint.html" title="{Point\n|&#45; x\l&#45; y\l&#45; name\l|+ Point()\l+ getName()\l+ getAttributeNames()\l+ clone()\l+ set()\l+ getId()\l}" alt="" coords="351,221,501,401"/>
+<area shape="rect" id="node3" href="$classBox.html" title="{Box\n||+ Box()\l+ getAttributeNames()\l+ clone()\l}" alt="" coords="5,464,155,571"/>
+<area shape="rect" id="node4" href="$classCircle.html" title="{Circle\n||+ Circle()\l+ getAttributeNames()\l+ clone()\l}" alt="" coords="179,464,329,571"/>
+<area shape="rect" id="node5" href="$classLine.html" title="{Line\n||+ Line()\l+ getAttributeNames()\l+ clone()\l}" alt="" coords="354,464,504,571"/>
 </map>

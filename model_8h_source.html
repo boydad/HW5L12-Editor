@@ -100,7 +100,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="classModel.html">   10</a></span>&#160;<span class="keyword">class </span><a class="code" href="classModel.html">Model</a>{</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;  </div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">private</span>:  </div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classModel.html#ae0625bfff05975572077c121e26eb213">   13</a></span>&#160;  std::unordered_map&lt;int, std::unique_ptr&lt;IFigure&gt; &gt; <a class="code" href="classModel.html#ae0625bfff05975572077c121e26eb213">figures</a>;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classModel.html#ab1bd88c6bd9c3f277cccead56935a772">   13</a></span>&#160;  std::unordered_map&lt;size_t, std::unique_ptr&lt;IFigure&gt; &gt; <a class="code" href="classModel.html#ab1bd88c6bd9c3f277cccead56935a772">figures</a>;</div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classModel.html#a8c73aeb71b6c343d54c0acf10d3d34d7">   14</a></span>&#160;  std::vector&lt; std::unique_ptr&lt;IFigure&gt; &gt; <a class="code" href="classModel.html#a8c73aeb71b6c343d54c0acf10d3d34d7">figureTypes</a>; </div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  </div>
 <div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="classModel.html#ab230c2c501c11acff4132052c443bed6">   16</a></span>&#160;  <a class="code" href="board_8h.html#a11a9c2c3f6fee93cead51dd67ae7b4a9">Board</a> <a class="code" href="classModel.html#ab230c2c501c11acff4132052c443bed6">board</a>;</div>
@@ -121,11 +121,11 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;  }</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;  </div>
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="classModel.html#a4130ac7cf9a72c3059bc4678c8d23fb2">   33</a></span>&#160;  <span class="keywordtype">void</span> <a class="code" href="classModel.html#a4130ac7cf9a72c3059bc4678c8d23fb2">add</a>(std::unique_ptr&lt;IFigure&gt;&amp; fig){</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="classModel.html#ae0625bfff05975572077c121e26eb213">figures</a>[fig-&gt;getId()] = std::move(fig);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="classModel.html#ab1bd88c6bd9c3f277cccead56935a772">figures</a>[fig-&gt;getId()] = std::move(fig);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;  }</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;  </div>
 <div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="classModel.html#a3d18bc38d7f193c18c2bf7ad6252f575">   37</a></span>&#160;  <span class="keywordtype">void</span> <span class="keyword">remove</span>(<span class="keyword">const</span> <span class="keywordtype">int</span> id){</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="classModel.html#ae0625bfff05975572077c121e26eb213">figures</a>.erase(<span class="keywordtype">id</span>);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="classModel.html#ab1bd88c6bd9c3f277cccead56935a772">figures</a>.erase(<span class="keywordtype">id</span>);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;  }  </div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  </div>
 <div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="classModel.html#a9113033414cab6106dfb5d86c463dbd7">   41</a></span>&#160;  <span class="keyword">const</span> <a class="code" href="board_8h.html#a11a9c2c3f6fee93cead51dd67ae7b4a9">Board</a>&amp; <a class="code" href="classModel.html#a9113033414cab6106dfb5d86c463dbd7">prepareBoard</a>(){</div>
@@ -140,7 +140,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  </div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;};</div>
 <div class="ttc" id="classLine_html"><div class="ttname"><a href="classLine.html">Line</a></div><div class="ttdef"><b>Definition:</b> figures.h:63</div></div>
-<div class="ttc" id="classModel_html_ae0625bfff05975572077c121e26eb213"><div class="ttname"><a href="classModel.html#ae0625bfff05975572077c121e26eb213">Model::figures</a></div><div class="ttdeci">std::unordered_map&lt; int, std::unique_ptr&lt; IFigure &gt; &gt; figures</div><div class="ttdef"><b>Definition:</b> model.h:13</div></div>
+<div class="ttc" id="classModel_html_ab1bd88c6bd9c3f277cccead56935a772"><div class="ttname"><a href="classModel.html#ab1bd88c6bd9c3f277cccead56935a772">Model::figures</a></div><div class="ttdeci">std::unordered_map&lt; size_t, std::unique_ptr&lt; IFigure &gt; &gt; figures</div><div class="ttdef"><b>Definition:</b> model.h:13</div></div>
 <div class="ttc" id="figures_8h_html"><div class="ttname"><a href="figures_8h.html">figures.h</a></div></div>
 <div class="ttc" id="classModel_html_a9113033414cab6106dfb5d86c463dbd7"><div class="ttname"><a href="classModel.html#a9113033414cab6106dfb5d86c463dbd7">Model::prepareBoard</a></div><div class="ttdeci">const Board &amp; prepareBoard()</div><div class="ttdef"><b>Definition:</b> model.h:41</div></div>
 <div class="ttc" id="classModel_html_a4130ac7cf9a72c3059bc4678c8d23fb2"><div class="ttname"><a href="classModel.html#a4130ac7cf9a72c3059bc4678c8d23fb2">Model::add</a></div><div class="ttdeci">void add(std::unique_ptr&lt; IFigure &gt; &amp;fig)</div><div class="ttdef"><b>Definition:</b> model.h:33</div></div>
