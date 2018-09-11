@@ -8,13 +8,13 @@
 
 class IFigure{     
 public:
-  virtual const std::vector<std::string>& showAttributeNames() const = 0;
+  virtual const std::vector<std::string>& getAttributeNames() const = 0;
   
   virtual void set(const std::string& attribureName, const std::string& value) = 0;  
   
   virtual std::unique_ptr<IFigure> clone() const = 0;
   
-  virtual int getId() = 0;
+  virtual size_t getId() = 0;
   
   virtual const char* getName() = 0;
   
@@ -29,13 +29,13 @@ protected:
   const int id;
   const char* name;
   
-static int generateUniqueId(){
-  static int tmp = 0;
-  tmp++;
-  return tmp;
-}
-  
 public:
+  
+  static int generateUniqueId(){
+    static int tmp = 0;
+    tmp++;
+    return tmp;
+  }
   
   FigureBase(const char* name): id(generateUniqueId()), name(name) {};
   
@@ -49,7 +49,7 @@ public:
     attributes[name] = stoi(attribute);
   }   
   
-  virtual int getId() override{
+  virtual size_t getId() override{
     return id;
   }
   
@@ -65,7 +65,7 @@ public:
   
   Line(): FigureBase("Line") {};
   
-  virtual const std::vector<std::string>& showAttributeNames() const final{
+  virtual const std::vector<std::string>& getAttributeNames() const final{
     static const std::vector<std::string> names {"Length", 
           "X coordinate", "Y coordinate"};
     return names;
@@ -82,7 +82,7 @@ public:
   
   Box(): FigureBase("Box") {};
   
-  virtual const std::vector<std::string>& showAttributeNames() const final{
+  virtual const std::vector<std::string>& getAttributeNames() const final{
     static const std::vector<std::string> names {"Width", 
           "X coordinate", "Y coordinate"};
     return names;
@@ -99,7 +99,7 @@ public:
   
   Circle(): FigureBase("Circle") {};
   
-  virtual const std::vector<std::string>& showAttributeNames() const final{
+  virtual const std::vector<std::string>& getAttributeNames() const final{
     static const std::vector<std::string> names {"Radius", 
           "X coordinate", "Y coordinate"};
     return names;
@@ -123,7 +123,7 @@ public:
     return name;
   }
   
-  virtual const std::vector<std::string>& showAttributeNames() const final{
+  virtual const std::vector<std::string>& getAttributeNames() const final{
     static const std::vector<std::string> names {"X coordinate", 
           "Y coordinate"};
     return names;
@@ -135,15 +135,15 @@ public:
   
   virtual void set(const std::string& name, 
         const std::string& attribute) override{
-    const int tmp = stoi(attribute);;
+    const int tmp = stoi(attribute);
     if(name.compare("X coordinate") == 0)
       x = tmp;
     else if(name.compare("Y coordinate") == 0)
       y = tmp;
   };     
   
-  virtual int getId() override{    
-    return 0;
+  virtual size_t getId() override{    
+    return FigureBase::generateUniqueId();
   }
   
 };

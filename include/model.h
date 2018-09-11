@@ -10,7 +10,7 @@
 class Model{
   
 private:  
-  std::unordered_map<int, std::unique_ptr<IFigure> > figures;
+  std::unordered_map<size_t, std::unique_ptr<IFigure> > figures;
   std::vector< std::unique_ptr<IFigure> > figureTypes; 
   
   Board board;

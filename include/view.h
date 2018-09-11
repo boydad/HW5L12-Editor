@@ -6,7 +6,6 @@
 
 #include "controller.h"
 #include "widgets.h"
-#include "board.h"
 #include "IShower.h"
 
 

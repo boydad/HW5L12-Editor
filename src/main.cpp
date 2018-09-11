@@ -1,10 +1,8 @@
 #include "view.h"
 #include "model.h"
 #include "controller.h"
-#include "figures.h"
 
 #include <iostream>
-#include <vector>
 
 int main(){
 	

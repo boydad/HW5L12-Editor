@@ -36,18 +36,16 @@ public:
 class FigureWidget: public Widget{
   IFigure& fig;
   Controller& handler;
-  using Widget::textFields;
-  using Widget::label;
   
 public:
   FigureWidget(Controller& handler, IFigure& figure): Widget(figure.getName()),
         fig(figure), handler(handler){
-    for(const auto& attrName: fig.showAttributeNames())
+    for(const auto& attrName: fig.getAttributeNames())
       textFields[attrName] = "";
   };  
   
   void click() override{
-    for(const auto& attrName: fig.showAttributeNames())
+    for(const auto& attrName: fig.getAttributeNames())
       fig.set(attrName, textFields[attrName]);
     handler.add(fig.clone());    
   }  
@@ -55,7 +53,6 @@ public:
 
 
 class FigureDeleterWidget: public Widget{
-  using Widget::textFields;
   Controller& handler;
   
 public:
@@ -73,7 +70,6 @@ public:
   
 
 class ExporterWidget: public Widget{
-  using Widget::textFields;
   Controller& handler;
   
 public:
@@ -90,7 +86,6 @@ public:
 
 
 class ImporterWidger: public Widget{
-  using Widget::textFields;
   Controller& handler;
   
 public:
@@ -107,7 +102,6 @@ public:
 
 
 class NewDocumetWidger: public Widget{
-  using Widget::textFields;
   Controller& handler;
   
 public:
