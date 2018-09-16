@@ -9,13 +9,13 @@
 
 class Controller{
   Model& model;
-  IShower* view;
+  IShowing* view;
     
 public:
   
   Controller(Model& model): model(model) {};
   
-  void subscribe(IShower* view){
+  void subscribe(IShowing* view){
     this->view = view;
   }
   

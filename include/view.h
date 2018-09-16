@@ -9,7 +9,7 @@
 #include "IShower.h"
 
 
-class View: public IShower{
+class View: public IShowing{
   Controller& controller;
   std::vector< std::unique_ptr<Widget> > widgets;
   

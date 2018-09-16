@@ -2,7 +2,7 @@
 
 #include "board.h"
 
-struct IShower{
+struct IShowing{
   virtual void show(const Board& board) = 0;
-  virtual ~IShower() = default;
+  virtual ~IShowing() = default;
 };
