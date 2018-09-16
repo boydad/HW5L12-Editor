@@ -99,7 +99,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="IShower_8h.html">IShower.h</a>&quot;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classView.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="classView.html">View</a>: <span class="keyword">public</span> <a class="code" href="structIShower.html">IShower</a>{</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="classView.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="classView.html">View</a>: <span class="keyword">public</span> <a class="code" href="structIShowing.html">IShowing</a>{</div>
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="classView.html#ab7c1df120024ff96b5b1e183d8a1eb60">   13</a></span>&#160;  <a class="code" href="classController.html">Controller</a>&amp; <a class="code" href="classView.html#ab7c1df120024ff96b5b1e183d8a1eb60">controller</a>;</div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="classView.html#af19fe03c81a4ae8a520a3def25bafa74">   14</a></span>&#160;  std::vector&lt; std::unique_ptr&lt;Widget&gt; &gt; <a class="code" href="classView.html#af19fe03c81a4ae8a520a3def25bafa74">widgets</a>;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;  </div>
@@ -113,7 +113,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;  </div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="keyword">public</span>:</div>
 <div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="classView.html#ae545e5457211211e977a10b37164aa95">   25</a></span>&#160;  <a class="code" href="classView.html#ae545e5457211211e977a10b37164aa95">View</a>(<a class="code" href="classController.html">Controller</a>&amp; <a class="code" href="classView.html#ab7c1df120024ff96b5b1e183d8a1eb60">controller</a>): controller(controller) {</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    controller.<a class="code" href="classController.html#a70ecb0ada02505b51d43b908d209f75b">subscribe</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    controller.<a class="code" href="classController.html#a282866c45c2c1e2a0b44c3c24441467d">subscribe</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    </div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">for</span>(<span class="keyword">const</span> <span class="keyword">auto</span>&amp; figure: controller.<a class="code" href="classController.html#afaac357e4e5a23ddd2ce34bfcb084188">getPossibleFigures</a>())</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;      <a class="code" href="classView.html#af19fe03c81a4ae8a520a3def25bafa74">widgets</a>.emplace_back(<span class="keyword">new</span> <a class="code" href="classFigureWidget.html">FigureWidget</a>(controller, *figure));</div>
@@ -133,6 +133,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;};</div>
 <div class="ttc" id="classController_html"><div class="ttname"><a href="classController.html">Controller</a></div><div class="ttdef"><b>Definition:</b> controller.h:10</div></div>
 <div class="ttc" id="classView_html_ab982edd82daa3311d87e3ab891785b58"><div class="ttname"><a href="classView.html#ab982edd82daa3311d87e3ab891785b58">View::start</a></div><div class="ttdeci">void start()</div><div class="ttdef"><b>Definition:</b> view.h:39</div></div>
+<div class="ttc" id="structIShowing_html"><div class="ttname"><a href="structIShowing.html">IShowing</a></div><div class="ttdef"><b>Definition:</b> IShower.h:5</div></div>
 <div class="ttc" id="classFigureWidget_html"><div class="ttname"><a href="classFigureWidget.html">FigureWidget</a></div><div class="ttdef"><b>Definition:</b> widgets.h:36</div></div>
 <div class="ttc" id="classView_html_af19fe03c81a4ae8a520a3def25bafa74"><div class="ttname"><a href="classView.html#af19fe03c81a4ae8a520a3def25bafa74">View::widgets</a></div><div class="ttdeci">std::vector&lt; std::unique_ptr&lt; Widget &gt; &gt; widgets</div><div class="ttdef"><b>Definition:</b> view.h:14</div></div>
 <div class="ttc" id="classView_html_ae545e5457211211e977a10b37164aa95"><div class="ttname"><a href="classView.html#ae545e5457211211e977a10b37164aa95">View::View</a></div><div class="ttdeci">View(Controller &amp;controller)</div><div class="ttdef"><b>Definition:</b> view.h:25</div></div>
@@ -140,17 +141,16 @@ var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
 <div class="ttc" id="classFigureDeleterWidget_html"><div class="ttname"><a href="classFigureDeleterWidget.html">FigureDeleterWidget</a></div><div class="ttdef"><b>Definition:</b> widgets.h:55</div></div>
 <div class="ttc" id="IShower_8h_html"><div class="ttname"><a href="IShower_8h.html">IShower.h</a></div></div>
 <div class="ttc" id="classController_html_afaac357e4e5a23ddd2ce34bfcb084188"><div class="ttname"><a href="classController.html#afaac357e4e5a23ddd2ce34bfcb084188">Controller::getPossibleFigures</a></div><div class="ttdeci">const auto &amp; getPossibleFigures()</div><div class="ttdef"><b>Definition:</b> controller.h:49</div></div>
-<div class="ttc" id="classController_html_a70ecb0ada02505b51d43b908d209f75b"><div class="ttname"><a href="classController.html#a70ecb0ada02505b51d43b908d209f75b">Controller::subscribe</a></div><div class="ttdeci">void subscribe(IShower *view)</div><div class="ttdef"><b>Definition:</b> controller.h:18</div></div>
 <div class="ttc" id="widgets_8h_html"><div class="ttname"><a href="widgets_8h.html">widgets.h</a></div></div>
 <div class="ttc" id="classView_html_abfb1b29b2326f063c2c4c46013f93f81"><div class="ttname"><a href="classView.html#abfb1b29b2326f063c2c4c46013f93f81">View::showWidgets</a></div><div class="ttdeci">void showWidgets()</div><div class="ttdef"><b>Definition:</b> view.h:16</div></div>
 <div class="ttc" id="classView_html_a11e838c43751e3a78427d4b75403e93f"><div class="ttname"><a href="classView.html#a11e838c43751e3a78427d4b75403e93f">View::show</a></div><div class="ttdeci">virtual void show(const Board &amp;board) override</div><div class="ttdef"><b>Definition:</b> view.h:37</div></div>
 <div class="ttc" id="classView_html_ab7c1df120024ff96b5b1e183d8a1eb60"><div class="ttname"><a href="classView.html#ab7c1df120024ff96b5b1e183d8a1eb60">View::controller</a></div><div class="ttdeci">Controller &amp; controller</div><div class="ttdef"><b>Definition:</b> view.h:13</div></div>
 <div class="ttc" id="controller_8h_html"><div class="ttname"><a href="controller_8h.html">controller.h</a></div></div>
-<div class="ttc" id="structIShower_html"><div class="ttname"><a href="structIShower.html">IShower</a></div><div class="ttdef"><b>Definition:</b> IShower.h:5</div></div>
 <div class="ttc" id="classView_html"><div class="ttname"><a href="classView.html">View</a></div><div class="ttdef"><b>Definition:</b> view.h:12</div></div>
 <div class="ttc" id="classExporterWidget_html"><div class="ttname"><a href="classExporterWidget.html">ExporterWidget</a></div><div class="ttdef"><b>Definition:</b> widgets.h:72</div></div>
 <div class="ttc" id="classNewDocumetWidger_html"><div class="ttname"><a href="classNewDocumetWidger.html">NewDocumetWidger</a></div><div class="ttdef"><b>Definition:</b> widgets.h:104</div></div>
 <div class="ttc" id="board_8h_html_a11a9c2c3f6fee93cead51dd67ae7b4a9"><div class="ttname"><a href="board_8h.html#a11a9c2c3f6fee93cead51dd67ae7b4a9">Board</a></div><div class="ttdeci">std::array&lt; std::array&lt; int, boardSize &gt;, boardSize &gt; Board</div><div class="ttdef"><b>Definition:</b> board.h:9</div></div>
+<div class="ttc" id="classController_html_a282866c45c2c1e2a0b44c3c24441467d"><div class="ttname"><a href="classController.html#a282866c45c2c1e2a0b44c3c24441467d">Controller::subscribe</a></div><div class="ttdeci">void subscribe(IShowing *view)</div><div class="ttdef"><b>Definition:</b> controller.h:18</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

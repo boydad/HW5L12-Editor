@@ -1,5 +1,5 @@
 <map id="View::View" name="View::View">
-<area shape="rect" id="node2" href="$classController.html#a70ecb0ada02505b51d43b908d209f75b" title="Controller::subscribe" alt="" coords="169,5,311,32"/>
+<area shape="rect" id="node2" href="$classController.html#a282866c45c2c1e2a0b44c3c24441467d" title="Controller::subscribe" alt="" coords="169,5,311,32"/>
 <area shape="rect" id="node3" href="$classController.html#afaac357e4e5a23ddd2ce34bfcb084188" title="Controller::getPossibleFigures" alt="" coords="141,56,339,83"/>
 <area shape="rect" id="node4" href="$classModel.html#a96dc3ed3bccd3df2f9274e4ab4ff05ff" title="Model::getFigureTypes" alt="" coords="387,56,541,83"/>
 </map>

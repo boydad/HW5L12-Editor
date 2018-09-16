@@ -1,7 +1,7 @@
 <map id="FigureWidget" name="FigureWidget">
-<area shape="rect" id="node2" href="$classWidget.html" title="{Widget\n||+ ~Widget()\l+ getFields()\l+ getLabel()\l# Widget()\l&#45; click()\l}" alt="" coords="66,444,160,580"/>
-<area shape="rect" id="node5" href="$classIFigure.html" title="{IFigure\n||+ getAttributeNames()\l+ set()\l+ clone()\l+ getId()\l+ getName()\l+ ~IFigure()\l}" alt="" coords="185,437,335,587"/>
-<area shape="rect" id="node6" href="$classController.html" title="{Controller\n||+ Controller()\l+ subscribe()\l+ newDocument()\l+ importFrom()\l+ exportAs()\l+ add()\l+ deleteFigure()\l+ getPossibleFigures()\l}" alt="" coords="359,422,512,602"/>
-<area shape="rect" id="node7" href="$structIShower.html" title="{IShower\n||+ show()\l+ ~IShower()\l}" alt="" coords="319,221,417,313"/>
-<area shape="rect" id="node8" href="$classModel.html" title="{Model\n||+ Model()\l+ getFigureTypes()\l+ add()\l+ remove()\l+ prepareBoard()\l+ loadDataFrom()\l+ saveDate()\l&#45; plotFiguresOnBoar()\l}" alt="" coords="441,177,588,357"/>
+<area shape="rect" id="node2" href="$classWidget.html" title="{Widget\n||+ ~Widget()\l+ getFields()\l+ getLabel()\l# Widget()\l&#45; click()\l}" alt="" coords="99,444,193,580"/>
+<area shape="rect" id="node5" href="$classIFigure.html" title="{IFigure\n||+ getAttributeNames()\l+ set()\l+ clone()\l+ getId()\l+ getName()\l+ ~IFigure()\l}" alt="" coords="218,437,368,587"/>
+<area shape="rect" id="node6" href="$classController.html" title="{Controller\n||+ Controller()\l+ subscribe()\l+ newDocument()\l+ importFrom()\l+ exportAs()\l+ add()\l+ deleteFigure()\l+ getPossibleFigures()\l}" alt="" coords="393,422,545,602"/>
+<area shape="rect" id="node7" href="$classModel.html" title="{Model\n||+ Model()\l+ getFigureTypes()\l+ add()\l+ remove()\l+ prepareBoard()\l+ loadDataFrom()\l+ saveDate()\l&#45; plotFiguresOnBoar()\l}" alt="" coords="303,177,449,357"/>
+<area shape="rect" id="node11" href="$structIShowing.html" title="{IShowing\n||+ show()\l+ ~IShowing()\l}" alt="" coords="473,221,577,313"/>
 </map>

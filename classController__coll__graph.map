@@ -1,4 +1,4 @@
 <map id="Controller" name="Controller">
-<area shape="rect" id="node2" href="$structIShower.html" title="{IShower\n||+ show()\l+ ~IShower()\l}" alt="" coords="79,221,177,313"/>
-<area shape="rect" id="node3" href="$classModel.html" title="{Model\n||+ Model()\l+ getFigureTypes()\l+ add()\l+ remove()\l+ prepareBoard()\l+ loadDataFrom()\l+ saveDate()\l&#45; plotFiguresOnBoar()\l}" alt="" coords="201,177,348,357"/>
+<area shape="rect" id="node2" href="$classModel.html" title="{Model\n||+ Model()\l+ getFigureTypes()\l+ add()\l+ remove()\l+ prepareBoard()\l+ loadDataFrom()\l+ saveDate()\l&#45; plotFiguresOnBoar()\l}" alt="" coords="201,177,348,357"/>
+<area shape="rect" id="node6" href="$structIShowing.html" title="{IShowing\n||+ show()\l+ ~IShowing()\l}" alt="" coords="372,221,476,313"/>
 </map>

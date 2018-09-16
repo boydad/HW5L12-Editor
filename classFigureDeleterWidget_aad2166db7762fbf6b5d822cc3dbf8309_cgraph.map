@@ -1,7 +1,7 @@
 <map id="FigureDeleterWidget::click" name="FigureDeleterWidget::click">
 <area shape="rect" id="node2" href="$classController.html#a3c9e3e285867176a9eea9ce0384810e5" title="Controller::deleteFigure" alt="" coords="195,56,352,83"/>
 <area shape="rect" id="node3" href="$classModel.html#a3d18bc38d7f193c18c2bf7ad6252f575" title="Model::remove" alt="" coords="418,5,526,32"/>
-<area shape="rect" id="node4" href="$structIShower.html#afed5e6ca21d556b5590ed1c41b1bf920" title="IShower::show" alt="" coords="417,56,527,83"/>
+<area shape="rect" id="node4" href="$structIShowing.html#a3d16cc395e3f19bf2075d79febd1d4f9" title="IShowing::show" alt="" coords="415,56,529,83"/>
 <area shape="rect" id="node5" href="$classModel.html#a9113033414cab6106dfb5d86c463dbd7" title="Model::prepareBoard" alt="" coords="401,107,543,133"/>
 <area shape="rect" id="node6" href="$classModel.html#aa9c3b4fd5ce5185db83e5c9acaa952b8" title="Model::plotFiguresOnBoar" alt="" coords="592,107,765,133"/>
 </map>

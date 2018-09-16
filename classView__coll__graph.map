@@ -1,5 +1,5 @@
 <map id="View" name="View">
-<area shape="rect" id="node2" href="$structIShower.html" title="{IShower\n||+ show()\l+ ~IShower()\l}" alt="" coords="79,221,177,313"/>
-<area shape="rect" id="node3" href="$classController.html" title="{Controller\n||+ Controller()\l+ subscribe()\l+ newDocument()\l+ importFrom()\l+ exportAs()\l+ add()\l+ deleteFigure()\l+ getPossibleFigures()\l}" alt="" coords="166,422,319,602"/>
+<area shape="rect" id="node2" href="$structIShowing.html" title="{IShowing\n||+ show()\l+ ~IShowing()\l}" alt="" coords="73,221,177,313"/>
+<area shape="rect" id="node3" href="$classController.html" title="{Controller\n||+ Controller()\l+ subscribe()\l+ newDocument()\l+ importFrom()\l+ exportAs()\l+ add()\l+ deleteFigure()\l+ getPossibleFigures()\l}" alt="" coords="163,422,316,602"/>
 <area shape="rect" id="node4" href="$classModel.html" title="{Model\n||+ Model()\l+ getFigureTypes()\l+ add()\l+ remove()\l+ prepareBoard()\l+ loadDataFrom()\l+ saveDate()\l&#45; plotFiguresOnBoar()\l}" alt="" coords="201,177,348,357"/>
 </map>

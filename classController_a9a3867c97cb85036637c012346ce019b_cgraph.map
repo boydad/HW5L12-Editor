@@ -1,6 +1,6 @@
 <map id="Controller::add" name="Controller::add">
 <area shape="rect" id="node2" href="$classModel.html#a4130ac7cf9a72c3059bc4678c8d23fb2" title="Model::add" alt="" coords="189,5,275,32"/>
-<area shape="rect" id="node3" href="$structIShower.html#afed5e6ca21d556b5590ed1c41b1bf920" title="IShower::show" alt="" coords="177,56,287,83"/>
+<area shape="rect" id="node3" href="$structIShowing.html#a3d16cc395e3f19bf2075d79febd1d4f9" title="IShowing::show" alt="" coords="175,56,289,83"/>
 <area shape="rect" id="node4" href="$classModel.html#a9113033414cab6106dfb5d86c463dbd7" title="Model::prepareBoard" alt="" coords="161,107,303,133"/>
 <area shape="rect" id="node5" href="$classModel.html#aa9c3b4fd5ce5185db83e5c9acaa952b8" title="Model::plotFiguresOnBoar" alt="" coords="352,107,525,133"/>
 </map>

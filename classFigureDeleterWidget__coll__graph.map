@@ -1,6 +1,6 @@
 <map id="FigureDeleterWidget" name="FigureDeleterWidget">
-<area shape="rect" id="node2" href="$classWidget.html" title="{Widget\n||+ ~Widget()\l+ getFields()\l+ getLabel()\l# Widget()\l&#45; click()\l}" alt="" coords="162,444,256,580"/>
-<area shape="rect" id="node5" href="$classController.html" title="{Controller\n||+ Controller()\l+ subscribe()\l+ newDocument()\l+ importFrom()\l+ exportAs()\l+ add()\l+ deleteFigure()\l+ getPossibleFigures()\l}" alt="" coords="281,422,433,602"/>
-<area shape="rect" id="node6" href="$structIShower.html" title="{IShower\n||+ show()\l+ ~IShower()\l}" alt="" coords="301,221,400,313"/>
-<area shape="rect" id="node7" href="$classModel.html" title="{Model\n||+ Model()\l+ getFigureTypes()\l+ add()\l+ remove()\l+ prepareBoard()\l+ loadDataFrom()\l+ saveDate()\l&#45; plotFiguresOnBoar()\l}" alt="" coords="424,177,571,357"/>
+<area shape="rect" id="node2" href="$classWidget.html" title="{Widget\n||+ ~Widget()\l+ getFields()\l+ getLabel()\l# Widget()\l&#45; click()\l}" alt="" coords="169,444,263,580"/>
+<area shape="rect" id="node5" href="$classController.html" title="{Controller\n||+ Controller()\l+ subscribe()\l+ newDocument()\l+ importFrom()\l+ exportAs()\l+ add()\l+ deleteFigure()\l+ getPossibleFigures()\l}" alt="" coords="287,422,440,602"/>
+<area shape="rect" id="node6" href="$classModel.html" title="{Model\n||+ Model()\l+ getFigureTypes()\l+ add()\l+ remove()\l+ prepareBoard()\l+ loadDataFrom()\l+ saveDate()\l&#45; plotFiguresOnBoar()\l}" alt="" coords="289,177,436,357"/>
+<area shape="rect" id="node10" href="$structIShowing.html" title="{IShowing\n||+ show()\l+ ~IShowing()\l}" alt="" coords="460,221,564,313"/>
 </map>
